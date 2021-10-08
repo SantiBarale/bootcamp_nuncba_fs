@@ -1,0 +1,52 @@
+body {
+    background-color: darkslategray;
+}
+h1 {
+    font-size: 40px;
+    color: darkslateblue;
+    background-color: black;
+    text-align: center;
+}
+.dr{
+    font-size: 20px;
+    color: blue;
+    background-color:cornflowerblue;
+    text-align: left;
+}
+.lista{
+    font-size: 25;
+    color: gold;
+    background-color: rgb(87, 72, 72);
+}
+.tomate{
+    background-color: tomato;
+    color: white;
+}
+.naranja{
+    background-color: orange;
+    color: white;
+}
+.azularcoiris{
+    background-color: dodgerblue;
+    color: white;
+}
+.verdealga{
+    background-color: mediumseagreen;
+    color: white;
+}
+.gris{
+    background-color: gray;
+    color: white;
+}
+.azulmetalico{
+    background-color: slateblue;
+    color: white;
+}
+.violeta{
+    background-color: violet;
+    color: white;
+}
+.dorado{
+    background-color: gold;
+    color: white;
+}
