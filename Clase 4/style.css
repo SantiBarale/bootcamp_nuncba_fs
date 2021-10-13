@@ -1,0 +1,48 @@
+
+/* el "*" es igual a todo */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+/*
+body{
+    background-color: white;
+    background-image: url("https://www.petfansclub.com/wp-content/uploads/2017/03/PERRO-SALCHICHA-_-DACHSHUND-1000.png");
+    
+     Comentario: Para sacar fondo blanco llamando a una imagen de html 
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+}*/
+
+body {
+    background-image: linear-gradient(180deg, black 10%, violet);
+}
+
+.imgperro{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+h1, h2, h3{
+    margin-top: 10px;
+    background-color: white;
+}
+
+.clase1, .clase2, h4{
+    font-size: 25px;
+    background-color: orange;
+}
+
+.perrosalchica{
+    background-color: maroon;
+}
+
+#perrosalchica{
+    background-color: crimson;
+}
