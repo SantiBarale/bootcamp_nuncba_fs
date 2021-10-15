@@ -1,0 +1,53 @@
+/*
+.padre{
+    background-color: rgb(180, 180, 180);
+    height: 900px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hijo{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border: 1px solid black;
+    font-size: 25px;
+}*/
+
+.wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+}
+
+.header{
+    background: violet;
+}
+
+.footer{
+    background: green;
+}
+
+.main{
+    text-align: right;
+    background: blue;
+}
+
+.aside-1{
+    background: gold;
+}
+
+.aside-2{
+    background: white;
+}
+
+/* Vamos a usar etiquetas de la clase */
