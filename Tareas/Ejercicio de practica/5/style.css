@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.menu{
+    display: flex;
+    font-weight: bold;
+}
+.menu > * {
+    flex: 1 100%;
+}
+.o1, .o2, .o3{
+    font-size: 20px;
+    text-align: right;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.img{
+    margin-top: 40px;
+    margin-right: 30px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
