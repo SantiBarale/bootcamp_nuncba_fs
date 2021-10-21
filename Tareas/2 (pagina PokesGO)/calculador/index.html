@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Poke Eevs</title>
+</head>
+<body>
+    <div class="logo"><img src="./img/PokesGO.png" alt="logo - PokesGO"></div>
+
+    <div class="menu">
+
+        <div class="m inicio"><a href="../index.html">Inicio</a></div>
+
+        <div class="m calcular"><a href="./calculador/index.html">Calcular Ivs</a></div>
+
+        <div class="m sesion"><a href="../sesion/index.html">Iniciar Sesion</a></div>
+    </div>
+
+    <h3>Calculador De IVS</h3>
+    <br>
+
+    <div class="pokego">
+        <img src="./img/Pokemon Go.png" alt="Pokemon Go" style="width:240px;height:128px;">
+        <br>
+    </div>
+
+    <div>
+        <ul>
+            <form class="lista">
+                <p class="atq">•Ivs De Ataque:
+                <input id="atq" type="number" min="0" max="15" placeholder="0-15"></p>
+                <br>
+                <p class="def">•Ivs De Defensa:
+                <input id="def" type="number" min="0" max="15" placeholder="0-15"></p>
+                <br>
+                <p class="ps">•Ivs De Ps:
+                <input id="ps" type="number" min="0" max="15" placeholder="0-15"></p>
+                <br>
+                <input class="env" onclick="res()" type="button" value="Enviar">
+            </form>
+        </ul>
+    </div>
+
+    <script src="main.js"></script>
+
+    <div class="rf" id="rf"></div>
+
+    <div class="links">
+        <p class="insta"><a href="https://www.instagram.com/santibarale/?hl=es-la" target="blank"><img src="./img/instagram.png" alt="instagram"></a></p>
+
+        <p>@santibarale</p>
+    </div>
+
+</body>
+</html>
